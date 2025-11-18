@@ -139,13 +139,14 @@ The agent makes decisions for local regions or individual pixels, determining wh
 <tbody>
 <tr>
   <td align="left">
-    <a href="">
+    <a href="https://ieeexplore.ieee.org/document/8936404">
+      PixelRL: Fully Convolutional Network With Reinforcement Learning for Image Processing
     </a>
   </td>
-  <td align="center">CVPR</td>
-  <td align="center">2019</td>
+  <td align="center"> IEEE </td>
+  <td align="center">2020</td>
   <td align="center">Restoration Degree Control</td>
-  <td align="center"><a href="">github</a></td>
+  <td align="center"><a href="https://github.com/rfuruta/pixelRL">github</a></td>
 </tr>
 <tr>
   <td align="left">
@@ -158,17 +159,6 @@ The agent makes decisions for local regions or individual pixels, determining wh
   <td align="center">Restoration Degree Control/Multi-agent RL </td>
   <td align="center">github</td>
 </tr> 
-<tr>
-  <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/8936404">
-      PixelRL: Fully Convolutional Network With Reinforcement Learning for Image Processing
-    </a>
-  </td>
-  <td align="center"> IEEE </td>
-  <td align="center">2020</td>
-  <td align="center">Restoration Degree Control</td>
-  <td align="center"><a href="https://github.com/rfuruta/pixelRL">github</a></td>
-</tr>
 <tr>
   <td align="left">
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/5423">
@@ -508,6 +498,7 @@ In the field of image denoising, some studies have explored LLM-powered reinforc
 ## Performance Evaluation
 
 ---
+
 
 
 
