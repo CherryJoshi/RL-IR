@@ -508,12 +508,7 @@ In the field of image denoising, some studies have explored LLM-powered reinforc
 ## Performance Evaluation
 
 ---
-| paper | Avenue |link|Code| 创新点|year|
-|--------|--------|----|----|--------|-----|
-|模版：A Reinforcement Learning Paradigm of Configuring Visual Enhancement for Object Detection in Underwater Scenes<br><sub>author <sub>        |  IEEE      | [paper](https://github.com/Harbinzzy/All-in-One-Image-Restoration-Survey/blob/main/README.md?plain=1)   |  [code](https://github.com/Harbinzzy/All-in-One-Image-Restoration-Survey/blob/main/README.md?plain=1)  |  IEEE   |   |
-|Underwater Image Enhancement With Reinforcement Learning<br><sub>Shixin Sun, Peng Ren  <sub>        |  IEEE      | [paper](https://ieeexplore.ieee.org/abstract/document/9751218)   |  [code](https://gitee.com/sunshixin_upc/underwater-image-enhancement-with-reinforcement-learning)  |  1.利用deepQ网络选择基本图像增强方法的动作，依次增强水下图像。2.探索开发训练方式   |2024|
-|A Reinforcement Learning Paradigm of Configuring Visual Enhancement for Object Detection in Underwater Scenes<br><sub>Hao Wang , Shixin Sun ,XiaoBai<sub>        |  IEEE Xplore   | [paper]   | [code](https://gitee.com/wanghaoupc/RL_Configuring_VisualEnhancment_for_ObjectDetection) |水下图像特征作为state，【YOLOv5的检测分数增量mAP】目标检测分数作为奖励，视觉增强算法作为action。 特征提取：yolov5【获取三种尺寸的特征图 40×40×128、20×20×256和10×10×512】，模型：DDDQN [两个网络 online Q{挑选action}, target Q{估计action的价值}]|2023|
-|CURL:Contrastive Unsupervised Representations for Reinforcement Learning<br><sub>Aravind Srinivas, Michael Laskin, Pieter Abbeel <sub> |  ICML2020 |[paper](https://arxiv.org/pdf/2004.04136)|[code](https://github.com/MishaLaskin/curl) |利用对比学习，自监督+RL损失，从原始像素中提取物理特征.|2020|
+
 
 
 
