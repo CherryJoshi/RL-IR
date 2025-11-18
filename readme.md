@@ -1,5 +1,18 @@
-# A survey on RL in image processing
-## Paper List
+# RL for Imgae Restoration,ISP and Enhancement
+###  <img src="./imgs/icon.png" width="20" style="vertical-align: middle;"> Reinforcement Learning for Multi-Degradation Image Restoration: A Survey
+
+
+This repository provides a curated collection of papers, benchmarks, and resources from our survey:  Reinforcement Learning for Multi-Degradation Image Restoration: A Survey
+
+---
+## <img width="48" height="48" alt="7395A7C8" src="https://github.com/user-attachments/assets/d2f302a7-4ae3-4e4e-8f16-dc79b55710a7" />Abstract
+
+
+---
+## 📣 News
+- 🚀 2025-03: Repository initialized.
+
+##📄 Paper List
 
 | paper | Avenue |link|Code| 创新点|year|
 |--------|--------|----|----|--------|-----|
@@ -19,4 +32,5 @@
 |Goal Conditioned Reinforcement Learning for Photo Finishing Tuning<br><sub> Jiarui Wu, Yujin Wang, Lingen Li, Fan Zhang, Tianfan Xue <sub> | 2024NIPS |[paper](https://arxiv.org/abs/2503.07300)|[code](https://github.com/OpenImagingLab/RLPixTuner/tree/master) |1.新的目标条件强化学习（RL）方法，致力于照片整理调整 2.新的状态表示方法：基于CNN特征表示+图片统计表示+历史action|2024|
 |DRL-ISP: Multi-Objective Camera ISP with Deep Reinforcement Learning<br><sub> Ukcheol Shin, Kyunghyun Lee, and In So Kweon <sub> |  IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022  |[paper](https://arxiv.org/abs/2207.03081)|[code](https://github.com/UkcheolShin/DRL-ISP) |基于深度学习的ISP框架，传统方法与基于网络方法集成工具箱，奖励函数适用于raw-rgb，2d目标检测，单目深度估计任务|2022|
 |DPOK: Reinforcement Learning for Fine-tuning Text-to-Image Diffusion Models<br><sub> Fan Ying, Watkins Olivia, Du Yuqing, Liu Hao <sub> | NeurIPS 2023 |[paper](https://arxiv.org/abs/2305.16381)|[code](https://github.com/google-research/google-research/tree/master/dpok) |使用在线强化学习（RL）来微调文本到图像的扩散模型；KL正则化视为隐式奖励；讨论了文本到图像模型的监督微调和在线微调之间的关键区别|2023|
+
 
