@@ -493,11 +493,56 @@ In the field of image denoising, some studies have explored LLM-powered reinforc
 ---
 
 ## Datasets
+We include commonly used datasets for evaluating RL performance.
+
+### Synthetic datasets
+| **Dataset**                       | **Year** | **Tasks**                           | **Description**                                                                                                                  |
+| --------------------------------- | -------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| BSD [[link]]()                    | 2005     | Deblur / Super-Resolution           | The BSD500 dataset contains 500 natural images (200 train / 100 val / 200 test), mostly 481×321 resolution.                      |
+| CSIQ [[link]]()                   | 2010     | Deblur / Denoise / JPEG compression | 30 reference images with 6 distortion types (Gaussian blur, JPEG, JPEG2000, noise, etc.) for quality assessment and restoration. |
+| MIT-Adobe FiveK [[link]]()        | 2011     | Image enhancement                   | 5,000 RAW images, each edited by 5 experts → 25,000 enhancement pairs; used for enhancement, color correction, white balance.    |
+| LIVEMD [[link]]()                 | 2012     | Mixed distortions                   | 15 reference images → 405 distorted images (Gaussian noise + JPEG compression).                                                  |
+| KITTI [[link]]()                  | 2012     | Enhancement / ISP simulation        | Autonomous driving dataset with 40,000+ stereo/RGB images at ~1240×376 resolution.                                               |
+| MS-COCO [[link]]()                | 2014     | Enhancement / ISP simulation        | 118k train + 5k val images for detection/segmentation; widely used for augmentation, anti-ISP learning, composite degradation.   |
+| ILSVRC [[link]]()                 | 2015     | Denoise / SR / Deblur / JPEG        | 1.28M train, 50k val, 100k test images (ImageNet 2012).                                                                          |
+| MICCAI Grand Challenge [[link]]() | 2015     | Medical reconstruction / Deblur     | ~250 microscopic images (2048×1536) for cancer cell segmentation, reconstruction, blur correction.                               |
+| DIV2K [[link]]()                  | 2017     | Deblur / Denoise / JPEG             | 1000 high-quality 2K images (800 train / 100 val / 100 test) for SR and restoration.                                             |
+| Waterloo Exploration [[link]]()   | 2017     | Denoise                             | 4,744 pristine images + 94,880 distorted images (5 degradations × 4 intensity levels).                                           |
+| OASBUD [[link]]()                 | 2017     | Ultrasound denoise                  | 1,000+ ultrasound images (B-mode & RF), used for noise reduction & tissue segmentation.                                          |
+| Rain100L [[link]]()               | 2017     | Derain                              | 100 rainy images with GT, designed for light-rain removal benchmarking.                                                          |
+| fastMRI [[link]]()                | 2018     | Medical reconstruction              | 1.5 TB MRI dataset: 40k+ knee/brain scans with raw k-space & reconstructions.                                                    |
+| Rain800 [[link]]()                | 2019     | Derain                              | 700 train + 100 test synthetic rain images using multi-layer rain textures.                                                      |
+| PU-GAN [[link]]()                 | 2019     | Point cloud upsampling              | 60 training + 20 test models (point cloud) for 3D upsampling tasks.                                                              |
+| VOC-HyBrid [[link]]()             | 2024     | Low-quality object detection        | 10,000+ VOC-based images with synthetic degradations (noise, blur, low-light, JPEG).                                             |
+| MiO100 [[link]]()                 | 2024     | Denoise / Deblur / JPEG             | 100 sets of composite-degradation images (noise+blur+compression), ~5,000 total.                                                 |
+
+
+
+### Real-world datasets
+| **Dataset**             | **Tasks**                                        | **Papers and Year**                            |
+| ----------------------- | ------------------------------------------------ | ---------------------------------------------- |
+| DICM (2012)             | Low-light image enhancement                      | ReLLIE                                         |
+| NPE (2013)              | Low-light image enhancement                      | ReLLIE                                         |
+| Paris-rue-Madame (2014) | Point cloud denoise                              | PathNet (2024)                                 |
+| CLIVE (2015)            | Illumination, noise, blur, compression artifacts | JE2NET (2022); Image Quality Assessment (2023) |
+| HDR+ (2016)             | ISP / Image enhancement                          | Photo Fine-Tuning (2024)                       |
+| DND (2017)              | Denoising                                        | Path-Restore (2021)                            |
+| LOL (2018)              | Low-light image enhancement                      | ReLLIE                                         |
+| RENOIR (2018)           | Denoising                                        | Path-Restore (2021)                            |
+| SIDD (2018)             | Denoising                                        | Path-Restore (2021)                            |
+| Raindrop (2018)         | Derain                                           | Operation-wise Attention (2019)                |
+| RTTS (2018)             | Dehaze                                           | Low-quality object detection (2024)            |
+| UIEB (2019)             | Underwater enhancement                           | Underwater-RL (2023)                           |
+| DDN-SIRR (2019)         | Derain                                           | Deraining RL (2024)                            |
+| WB (2019)               | White balance correction                         | DRL-ISP (2022)                                 |
+| U45 (2019)              | Underwater enhancement                           | INSPIRATION (2024)                             |
+| RUIE (2020)             | Underwater enhancement                           | INSPIRATION (2024)                             |
 
 ---
 ## Performance Evaluation
 
 ---
+
 
 
 
