@@ -149,6 +149,17 @@ The agent makes decisions for local regions or individual pixels, determining wh
 </tr>
 <tr>
   <td align="left">
+    <a href="https://link.springer.com/article/10.1007/s11042-019-07914-5">
+     Image registration optimization mechanism based on reinforcement learning and real time denoising. 
+    </a>
+  </td>
+  <td align="center">SPRINGER</td>
+  <td align="center">2020</td>
+  <td align="center">Restoration Degree Control/Multi-agent RL </td>
+  <td align="center">github</td>
+</tr> 
+<tr>
+  <td align="left">
     <a href="https://ieeexplore.ieee.org/document/8936404">
       PixelRL: Fully Convolutional Network With Reinforcement Learning for Image Processing
     </a>
@@ -384,11 +395,107 @@ Reinforcement learning can also be employed to dynamically adjust key parameters
 
 ### 3.2 Based on RL Formulation/Algorithm
 
+#### 3.2.3 Hierarchical RL
+HRL typically consists of a high-level policy and a low-level policy: the high-level policy is responsible for setting global objectives—such as selecting regions to process, determining stage-wise restoration goals, or choosing action types—while the low-level policy executes fine-grained actions (e.g., pixel-level adjustments or localized enhancements) based on the high-level directives.
+<table>
+<thead>
+<tr>
+<th align="left">Title</th>
+<th align="center">Publication</th>
+<th align="center">Date</th>
+<th align="center">Tags</th>
+<th align="center">Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/1912.03966">
+     Efficient object detection in large images using deep reinforcement learning
+    </a>
+  </td>
+  <td align="center">WACV</td>
+  <td align="center">2020</td>
+  <td align="center">Hierarchical RL/object detection</td>
+  <td align="center"><a href="https://github.com/uzkent/EfficientObjectDetection">github</a></td>
+</tr> 
+<tr>
+  <td align="left">
+    <a href="https://ieeexplore.ieee.org/document/9747299">
+      HIRL: HYBRID IMAGE RESTORATION BASED ON HIERARCHICAL DEEP REINFORCEMENT LEARNING VIA TWO-STEP ANALYSIS
+    </a>
+  </td>
+  <td align="center">ICASSP</td>
+  <td align="center">2022</td>
+  <td align="center">Hierarchical RL</td>
+  <td align="center"><a href="">github</a></td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://www.mdpi.com/2072-4292/14/23/5998">
+     Aerial Image Dehazing Using Reinforcement Learning
+    </a>
+  </td>
+  <td align="center"></td>
+  <td align="center">2022</td>
+  <td align="center">Hierarchical RL</td>
+  <td align="center">github</td>
+</tr> 
+<tr>
+  <td align="left">
+    <a href="https://ieeexplore.ieee.org/document/10574839">
+      STAR-RL: Spatial-Temporal Hierarchical Reinforcement Learning for Interpretable Pathology Image Super-Resolution
+    </a>
+  </td>
+  <td align="center">IEEE</td>
+  <td align="center">2024</td>
+  <td align="center">Hierarchical RL</td>
+  <td align="center"><a href="https://github.com/CUHK-AIM-Group/STAR-RL">github</a></td>
+</tr> 
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2408.06803">
+     Integrating saliency ranking and reinforcement learning for enhanced object detection.
+    </a>
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2024</td>
+  <td align="center">Hierarchical RL/object detection</td>
+  <td align="center"><a href="https://github.com/mbar0075/SaRLVision">github</a></td>
+</tr> 
+</tbody>
+</table>
 
 ### 3.3 Based on Reward function design
 
 
 ### 3.4 Based on LLM-powered and Prompt-Guided
+In the field of image denoising, some studies have explored LLM-powered reinforcement learning frameworks to better cope with complex stochastic noise environments. 
+<table>
+<thead>
+<tr>
+<th align="left">Title</th>
+<th align="center">Publication</th>
+<th align="center">Date</th>
+<th align="center">Tags</th>
+<th align="center">Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2410.17809">
+     An intelligent agentic system for complex image restoration problems
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2025</td>
+  <td align="center">LLM-powered</td>
+  <td align="center"><a href="https://github.com/Kaiwen-Zhu/AgenticIR">github</a></td>
+</tr> 
+
+</tbody>
+</table>
 
 ---
 ## Evaluation Metric
@@ -406,9 +513,9 @@ Reinforcement learning can also be employed to dynamically adjust key parameters
 |模版：A Reinforcement Learning Paradigm of Configuring Visual Enhancement for Object Detection in Underwater Scenes<br><sub>author <sub>        |  IEEE      | [paper](https://github.com/Harbinzzy/All-in-One-Image-Restoration-Survey/blob/main/README.md?plain=1)   |  [code](https://github.com/Harbinzzy/All-in-One-Image-Restoration-Survey/blob/main/README.md?plain=1)  |  IEEE   |   |
 |Underwater Image Enhancement With Reinforcement Learning<br><sub>Shixin Sun, Peng Ren  <sub>        |  IEEE      | [paper](https://ieeexplore.ieee.org/abstract/document/9751218)   |  [code](https://gitee.com/sunshixin_upc/underwater-image-enhancement-with-reinforcement-learning)  |  1.利用deepQ网络选择基本图像增强方法的动作，依次增强水下图像。2.探索开发训练方式   |2024|
 |A Reinforcement Learning Paradigm of Configuring Visual Enhancement for Object Detection in Underwater Scenes<br><sub>Hao Wang , Shixin Sun ,XiaoBai<sub>        |  IEEE Xplore   | [paper]   | [code](https://gitee.com/wanghaoupc/RL_Configuring_VisualEnhancment_for_ObjectDetection) |水下图像特征作为state，【YOLOv5的检测分数增量mAP】目标检测分数作为奖励，视觉增强算法作为action。 特征提取：yolov5【获取三种尺寸的特征图 40×40×128、20×20×256和10×10×512】，模型：DDDQN [两个网络 online Q{挑选action}, target Q{估计action的价值}]|2023|
-|HIRL: HYBRID IMAGE RESTORATION BASED ON HIERARCHICAL DEEP REINFORCEMENT LEARNING VIA TWO-STEP ANALYSIS<br><sub>Xiaoyu Zhang, Wei Gao<sub>        |  ICASSP2022|[paper](https://ieeexplore.ieee.org/document/9747299)|[code] |1.分层深度强化学习框架权衡每种工具带来的效益和额外噪声，分层设计，减少时间消耗和复杂度；2.根据不同的类型和程度将失真情况划分为不同的层次 3.奖励函数加入感知驱动的图像质量评估PaQ-2-PiQ|2022|
 |CURL:Contrastive Unsupervised Representations for Reinforcement Learning<br><sub>Aravind Srinivas, Michael Laskin, Pieter Abbeel <sub> |  ICML2020 |[paper](https://arxiv.org/pdf/2004.04136)|[code](https://github.com/MishaLaskin/curl) |利用对比学习，自监督+RL损失，从原始像素中提取物理特征.|2020|
-|STAR-RL: Spatial-Temporal Hierarchical Reinforcement Learning for Interpretable Pathology Image Super-Resolution<br><sub> Wenting Chen , Jie Liu <sub> |  IEEE Transactions on Medical Imaging |[paper](https://ieeexplore.ieee.org/document/10574839)|[code](https://github.com/CUHK-AIM-Group/STAR-RL) |强化学习【增加可解释性并减少伪影】+分层思想【避免计算量的平均化，在非平坦且细节较多的区域分配更多计算】+多种质量评估指标【PSNR,SSIM,GMSD,FSIM{评估局部细节}】两级分层机制，在块级恢复LR图像，而不是整个图像|2024|
+
+
 
 
 
