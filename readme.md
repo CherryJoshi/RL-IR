@@ -6,8 +6,10 @@ This repository provides a curated collection of papers, benchmarks, and resourc
 
 ---
 ## Abstract
-
-
+Image restoration (IR) and Image Enhancement tasks aim to improve visual quality and remove various degrading factors such as noise, blur, weather effects and compression artifacts. However, traditional methods rely on hand-designed prior models, making it difficult to handle the coupled relationships of multiple degradations in real-world scenes. While deep learning methods have made significant progress on specific tasks, they still face challenges such as insufficient interpretability, static processing flow and difficulty in adapting to different degradation patterns. To address these challenges, reinforcement learning (RL), as an intelligent learning paradigm capable of sequential decision-making and dynamic policy optimization, is gradually emerging as a potential solution in the IR field. RL methods can adaptively adjust restoration strategies based on intermediate results.
+This review focuses on the application of RL in image restoration and enhancement, systematically discussing its algorithmic mechanisms and methodological design. It also comprehensively reviews the rapidly developing RL-based IR research in recent years. We first introduce the basic modeling methods of RL in IR. Subsequently, based on core dimensions such as action granularity, RL algorithm category, reward design and large model-driven agent structure, existing methods are systematically classified. Their theoretical characteristics and applicable scenarios are analyzed. Next, we summarize commonly used IR evaluation metrics, implementation details, evaluation criteria and compile typical public RL datasets to objectively compare the public results of mainstream RL methods, providing researchers with intuitive performance references.
+Finally, this paper delves into the challenges faced by RL-based IR models, including reward sparsity, training efficiency, stability, generalization ability, difficulties in deploying them in real-world scenarios. Then it proposes possible RL-based IR future research directions. This review aims to serve as a systematic reference in this field, providing researchers and practitioners with a clear research framework and practical guidance, and promoting the further development of reinforcement learning in image restoration and enhancement.
+<img src="./imgs/framework.svg" width="20" style="vertical-align: middle;">
 ---
 ## Content
 - [📣 News](#news)
@@ -542,6 +544,7 @@ We include commonly used datasets for evaluating RL performance.
 ## Performance Evaluation
 
 ---
+
 
 
 
