@@ -2,7 +2,7 @@
 ###  <img src="./imgs/icon1.png" width="20" style="vertical-align: middle;"> Reinforcement Learning for Multi-Degradation Image Restoration: A Survey
 
 
-This repository provides a curated collection of papers, benchmarks, and resources from our survey:  Reinforcement Learning for Multi-Degradation Image Restoration: A Survey
+This repository provides a collection of papers, benchmarks, and resources from our survey:  Reinforcement Learning for Multi-Degradation Image Restoration: A Survey
 
 ---
 ## Abstract
@@ -10,7 +10,8 @@ This repository provides a curated collection of papers, benchmarks, and resourc
 Image restoration (IR) and Image Enhancement tasks aim to improve visual quality and remove various degrading factors such as noise, blur, weather effects and compression artifacts. However, traditional methods rely on hand-designed prior models, making it difficult to handle the coupled relationships of multiple degradations in real-world scenes. While deep learning methods have made significant progress on specific tasks, they still face challenges such as insufficient interpretability, static processing flow and difficulty in adapting to different degradation patterns. To address these challenges, reinforcement learning (RL), as an intelligent learning paradigm capable of sequential decision-making and dynamic policy optimization, is gradually emerging as a potential solution in the IR field. RL methods can adaptively adjust restoration strategies based on intermediate results.
 This review focuses on the application of RL in image restoration and enhancement, systematically discussing its algorithmic mechanisms and methodological design. It also comprehensively reviews the rapidly developing RL-based IR research in recent years. We first introduce the basic modeling methods of RL in IR. Subsequently, based on core dimensions such as action granularity, RL algorithm category, reward design and large model-driven agent structure, existing methods are systematically classified. Their theoretical characteristics and applicable scenarios are analyzed. Next, we summarize commonly used IR evaluation metrics, implementation details, evaluation criteria and compile typical public RL datasets to objectively compare the public results of mainstream RL methods, providing researchers with intuitive performance references.
 Finally, this paper delves into the challenges faced by RL-based IR models, including reward sparsity, training efficiency, stability, generalization ability, difficulties in deploying them in real-world scenarios. Then it proposes possible RL-based IR future research directions. This review aims to serve as a systematic reference in this field, providing researchers and practitioners with a clear research framework and practical guidance, and promoting the further development of reinforcement learning in image restoration and enhancement.
-<img src="./imgs/framework.svg" width="20" style="vertical-align: middle;">
+
+<img src="./imgs/diaragram.svg" style="center"> 
 
 ---
 ## Content
@@ -40,16 +41,7 @@ The core idea is to decompose common image restoration strategies into independe
 <tbody>
 <tr>
   <td align="left">
-    <a href="">
-    </a>
-  </td>
-  <td align="center">CVPR</td>
-  <td align="center">2019</td>
-  <td align="center">module selection</td>
-  <td align="center"><a href="">github</a></td>
-</tr>
-<tr>
-  <td align="left">
+    [RL-Restore]
     <a href="https://arxiv.org/pdf/1804.03312.pdf">
       Crafting a toolchain for image restoration by deep reinforcement learning.
     </a>
@@ -61,6 +53,7 @@ The core idea is to decompose common image restoration strategies into independe
 </tr>
 <tr>
   <td align="left">
+    [Operation-wise Attention]
     <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Suganuma_Attention-Based_Adaptive_Selection_of_Operations_for_Image_Restoration_in_the_CVPR_2019_paper.pdf">
       Attention-Based Adaptive Selection of Operations for Image Restoration in the Presence of Unknown Combined Distortions
     </a>
@@ -72,6 +65,19 @@ The core idea is to decompose common image restoration strategies into independe
 </tr>
 <tr>
   <td align="left">
+    [RL-Dehaze]
+    <a href="https://ieeexplore.ieee.org/abstract/document/9277382">
+      Single image dehazing via reinforcement learning
+    </a>
+  </td>
+  <td align="center">ICIBA</td>
+  <td align="center">2020</td>
+  <td align="center">module selection</td>
+  <td align="center"><a href="">github</a></td>
+</tr>
+<tr>
+  <td align="left">
+    [JE2NET]
     <a href="https://ieeexplore.ieee.org/document/9746115">
       JE2NET: Joint Exploitation and Exploration in Reinforcement Learning Based Image Restoration
     </a>
@@ -83,6 +89,7 @@ The core idea is to decompose common image restoration strategies into independe
 </tr>
 <tr>
   <td align="left">
+    [REPNP]
     <a href="https://arxiv.org/abs/2207.12056">
       REPNP: Plug-and-Play with Deep Reinforcement Learning Prior for Robust Image Restoration
     </a>
@@ -105,6 +112,19 @@ The core idea is to decompose common image restoration strategies into independe
 </tr>
 <tr>
   <td align="left">
+    [Ye et al.]
+    <a href="https://www.sciencedirect.com/science/article/pii/S0167865524001181">
+      Low-quality image object detection based on reinforcement learning adaptive enhancement.
+    </a>
+  </td>
+  <td align="center">Pattern Recognition Letters</td>
+  <td align="center">2024 </td>
+  <td align="center">module selection</td>
+  <td align="center"><a href="">github</a></td>
+</tr>  
+<tr>
+  <td align="left">
+    [Li et al.]
     <a href="https://ieeexplore.ieee.org/abstract/document/9751218">
       Underwater Image Enhancement With Reinforcement Learning
     </a>
@@ -114,17 +134,6 @@ The core idea is to decompose common image restoration strategies into independe
   <td align="center">module selection</td>
   <td align="center"><a href="https://gitee.com/sunshixin_upc/underwater-image-enhancement-with-reinforcement-learning">github</a></td>
 </tr>
-<tr>
-  <td align="left">
-    <a href="https://www.sciencedirect.com/science/article/pii/S0167865524001181">
-      Low-quality image object detection based on reinforcement learning adaptive enhancement.
-    </a>
-  </td>
-  <td align="center"></td>
-  <td align="center"> </td>
-  <td align="center">module selection</td>
-  <td align="center"><a href="">github</a></td>
-</tr>  
 </tbody>
 </table>
 
@@ -143,6 +152,7 @@ The agent makes decisions for local regions or individual pixels, determining wh
 <tbody>
 <tr>
   <td align="left">
+    [PixelRL]
     <a href="https://ieeexplore.ieee.org/document/8936404">
       PixelRL: Fully Convolutional Network With Reinforcement Learning for Image Processing
     </a>
@@ -154,6 +164,7 @@ The agent makes decisions for local regions or individual pixels, determining wh
 </tr>
 <tr>
   <td align="left">
+    [Ke et al.]
     <a href="https://link.springer.com/article/10.1007/s11042-019-07914-5">
      Image registration optimization mechanism based on reinforcement learning and real time denoising. 
     </a>
@@ -165,6 +176,7 @@ The agent makes decisions for local regions or individual pixels, determining wh
 </tr> 
 <tr>
   <td align="left">
+    [MRI-RL]
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/5423">
       MRI Reconstruction with Interpretable Pixel-Wise Operations Using Reinforcement Learning
     </a>
@@ -176,6 +188,7 @@ The agent makes decisions for local regions or individual pixels, determining wh
 </tr>
 <tr>
   <td align="left">
+    [Jarosik et al.]
     <a href="https://ieeexplore.ieee.org/document/9593591">
       Pixel-wise deep reinforcement learning approach for ultrasound image denoising.
     </a>
@@ -187,6 +200,7 @@ The agent makes decisions for local regions or individual pixels, determining wh
 </tr>
 <tr>
   <td align="left">
+    [R3L]
     <a href="">
       R3l: Connecting deep reinforcement learning to recurrent neural networks for image denoising via residual recovery. 
     </a>
@@ -198,6 +212,7 @@ The agent makes decisions for local regions or individual pixels, determining wh
 </tr>
 <tr>
   <td align="left">
+    [RL-Deraining]
     <a href="https://arxiv.org/abs/2403.18270">
       Image deraining via self-supervised reinforcement learning
     </a>
@@ -382,8 +397,18 @@ Reinforcement learning can also be employed to dynamically adjust key parameters
   <td align="center">Parameter Adjustment/underwater enhancement</td>
   <td align="center"><a href="https://gitee.com/wanghaoupc/Metalantis_UIE">github</a></td>
 </tr>
-
-  
+<tr>
+  <td align="left">
+    [RL-VO]
+    <a href="https://arxiv.org/abs/2407.15626">
+      Reinforcement Learning Meets Visual Odometry
+    </a>
+  </td>
+  <td align="center"> arxiv </td>
+  <td align="center">2024</td>
+  <td align="center">Parameter Adjustment</td>
+  <td align="center"><a href="">github</a></td>
+</tr> 
 </tbody>
 </table>
 
@@ -546,6 +571,7 @@ We include commonly used datasets for evaluating RL performance.
 ## Performance Evaluation
 
 ---
+
 
 
 
