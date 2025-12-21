@@ -503,6 +503,17 @@ In the field of image denoising, some studies have explored LLM-powered reinforc
 <tbody>
 <tr>
   <td align="left">
+    <a href="https://arxiv.org/abs/2407.18035">
+     RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models
+    </a>
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2024</td>
+  <td align="center">LLM-powered</td>
+  <td align="center">github</td>
+</tr> 
+<tr>
+  <td align="left">
     <a href="https://arxiv.org/abs/2410.17809">
      An intelligent agentic system for complex image restoration problems
     </a>
@@ -512,6 +523,40 @@ In the field of image denoising, some studies have explored LLM-powered reinforc
   <td align="center">LLM-powered</td>
   <td align="center"><a href="https://github.com/Kaiwen-Zhu/AgenticIR">github</a></td>
 </tr> 
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2407.18035">
+     MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2025</td>
+  <td align="center">LLM-powered</td>
+  <td align="center"><a href="https://github.com/XLearning-SCU/2025-CVPR-MaIR">github</a></td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2503.10120">
+     Hybrid Agents for Image Restoration
+    </a>
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2025</td>
+  <td align="center">LLM-powered</td>
+  <td align="center">github</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2504.07148">
+    Q-Agent: Quality-Driven Chain-of-Thought Image Restoration Agent through Robust Multimodal Large Language Model
+    </a>
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2025</td>
+  <td align="center">LLM-powered</td>
+  <td align="center">github</td>
+</tr>
+
 
 </tbody>
 </table>
@@ -571,6 +616,7 @@ We include commonly used datasets for evaluating RL performance.
 ## Performance Evaluation
 
 ---
+
 
 
 
