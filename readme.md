@@ -529,7 +529,7 @@ We categorize recent RL-restore papers by components:
   <td align="center">NeurIPS</td>
   <td align="center">2026</td>
   <td align="center">Parameter Adjustment/real-world super-resolution/preference optimization</td>
-  <td align="center">github</td>
+  <td align="center"><a href="https://github.com/cswry/DP2O-SR">github</td>
 </tr>
 
 <tr>
@@ -558,7 +558,7 @@ We categorize recent RL-restore papers by components:
   <td align="center">arxiv</td>
   <td align="center">2025</td>
   <td align="center">Survey/large model/reinforcement learning</td>
-  <td align="center">github</td>
+  <td align="center"><a href="https://github.com/weijiawu/Awesome-RL-for-Multimodal-Foundation-Models">github</td>
 </tr>
 
 </tbody>
