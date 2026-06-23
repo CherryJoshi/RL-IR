@@ -16,7 +16,7 @@ This survey serves as a foundational roadmap for the development of the next gen
 
 ## Overview
 
-<img src="./imgs/diagram.svg" style="center"> 
+<img src="./imgs/figure1.pdf" style="center"> 
 
 ---
 
@@ -45,6 +45,7 @@ This survey serves as a foundational roadmap for the development of the next gen
 We categorize recent RL-restore papers by components:
 
 ### Ⅰ Action Space Design
+<img src="./imgs/figure2.pdf" style="center">
 
 #### 1 Module selection
 
