@@ -6,13 +6,13 @@ This repository provides a collection of papers, benchmarks, and resources from 
 
 ## Abstract
 
-While Deep Learning (DL) has revolutionized Image Restoration (IR), standard models typically rely on static, one-pass inference, which fails to adapt to the complex, entangled degradation patterns encountered in real-world engineering systems. 
-Reinforcement Learning (RL) addresses these limitations by reformulating restoration as a sequential decision-making process, thereby enabling dynamic policy optimization, enhanced interpretability, and adaptive resource allocation. 
-This paper provides a comprehensive survey of this evolving landscape, systematically analyzing how RL bridges the gap between signal fidelity and decision-theoretic control. 
-We propose a novel taxonomy rooted in Action Space Design, categorizing methodologies into Module Selection, Pixel-wise Restoration, and Parameter Tuning strategies. 
-Beyond algorithmic mechanisms, we critically evaluate the performance of mainstream RL methods on public benchmarks, highlighting their superior robustness in multi-degradation and blind restoration scenarios compared to static baselines. 
-Finally, we dissect critical engineering challenges—including reward sparsity, the Sim-to-Real gap, and real-time edge deployment—and envision future directions that are driven by Large Multimodal Models and Agentic Frameworks. 
-This survey serves as a foundational roadmap for the development of the next generation of autonomous and intelligent vision systems.
+While deep learning (DL) has substantially advanced image restoration (IR), many deep restoration models still rely on fixed inference paths, which can limit their adaptability to mixed, blind, or spatially varying degradations in real-world imaging systems. 
+Reinforcement learning (RL) provides a complementary formulation by treating restoration as a sequential decision-making process, enabling adaptive decision policies, interpretable operation selection, and resource-aware inference. 
+This survey examines RL-based image restoration and analyzes how sequential decision-making connects signal-level restoration objectives with decision-theoretic control.
+We propose a multi-axis taxonomy covering action-space design, state representation, reward function design, and system-level policy learning, with particular attention to how different action spaces determine the agent's restoration behavior.
+We also examine datasets, evaluation metrics, and reported performance trends, noting that differences in degradation settings, model backbones, reward designs, and evaluation protocols limit direct numerical comparison.
+Finally, we discuss engineering challenges including reward sparsity and misalignment, partial observability, replay-buffer mismatch, Sim-to-Real generalization, benchmark standardization, and real-time edge deployment, as well as emerging directions involving large multimodal models, agentic restoration, and diffusion sampling control. 
+This survey provides a structured reference for studying adaptive, resource-aware, and preference-aware image restoration systems.  
 
 ## Overview
 
