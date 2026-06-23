@@ -38,6 +38,7 @@ This survey serves as a foundational roadmap for the development of the next gen
 ## News
 
 - 2025-03: Repository initialized.
+- 2026-06：EAAI revise
 
 ## Paper List
 
@@ -474,6 +475,92 @@ We categorize recent RL-restore papers by components:
   <td align="center">Parameter Adjustment</td>
   <td align="center">github</a></td>
 </tr>
+  <tr>
+  <td align="center">
+    <a href="https://arxiv.org/abs/2603.27742">
+      TIR-Agent
+    </a>
+  </td>
+  <td align="left">
+    TIR-Agent: Training an Explorative and Efficient Agent for Image Restoration
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2026</td>
+  <td align="center">Parameter Adjustment/image restoration agent</td>
+  <td align="center">github</td>
+</tr>
+<tr>
+  <td align="center">
+    <a href="https://www.mdpi.com/2079-9292/14/17/3357">
+      DPO-ESRGAN
+    </a>
+  </td>
+  <td align="left">
+    DPO-ESRGAN: Perceptually Enhanced Super-Resolution Using Direct Preference Optimization
+  </td>
+  <td align="center">Electronics</td>
+  <td align="center">2025</td>
+  <td align="center">Parameter Adjustment/super-resolution/preference optimization</td>
+  <td align="center">github</td>
+</tr>
+<tr>
+  <td align="center">
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37520">
+      TTPO
+    </a>
+  </td>
+  <td align="left">
+    Test-Time Preference Optimization for Image Restoration
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2026</td>
+  <td align="center">Parameter Adjustment/test-time optimization/preference optimization</td>
+  <td align="center">github</td>
+</tr>
+<tr>
+  <td align="center">
+    <a href="https://arxiv.org/abs/2510.18851">
+      DP<sup>2</sup>O-SR
+    </a>
+  </td>
+  <td align="left">
+    DP<sup>2</sup>O-SR: Direct Perceptual Preference Optimization for Real-World Image Super-Resolution
+  </td>
+  <td align="center">NeurIPS</td>
+  <td align="center">2026</td>
+  <td align="center">Parameter Adjustment/real-world super-resolution/preference optimization</td>
+  <td align="center">github</td>
+</tr>
+
+<tr>
+  <td align="center">
+    <a href="https://arxiv.org/abs/2511.01645">
+      Xu et al.
+    </a>
+  </td>
+  <td align="left">
+    Enhancing Diffusion-based Restoration Models via Difficulty-Adaptive Reinforcement Learning with IQA Reward
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2025</td>
+  <td align="center">Parameter Adjustment/diffusion model/IQA reward</td>
+  <td align="center">github</td>
+</tr>
+<tr>
+  <td align="center">
+    <a href="https://arxiv.org/abs/2508.08189">
+      Wu et al.
+    </a>
+  </td>
+  <td align="left">
+    Reinforcement Learning for Large Model: A Survey
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2025</td>
+  <td align="center">Survey/large model/reinforcement learning</td>
+  <td align="center">github</td>
+</tr>
+
 </tbody>
 </table>
 
@@ -745,6 +832,20 @@ We categorize recent RL-restore papers by components:
   <td align="center">2025</td>
   <td align="center">Perceptual Rewards</td>
   <td align="center"><a href="https://github.com/Junboooo/RealSR-R1">github</a></td>
+</tr>
+<tr>
+  <td align="center">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026F/html/Lu_Restore-R1_Efficient_Image_Restoration_Agents_via_Reinforcement_Learning_with_Multimodal_CVPRF_2026_paper.html">
+      Restore-R1
+    </a>
+  </td>
+  <td align="left">
+    Restore-R1: Efficient Image Restoration Agents via Reinforcement Learning with Multimodal LLM Perceptual Feedback
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+  <td align="center">Parameter Adjustment/image restoration agent/MLLM feedback</td>
+  <td align="center">github</td>
 </tr>
 </tbody>
 </table>
