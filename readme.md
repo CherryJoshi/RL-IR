@@ -16,7 +16,7 @@ This survey serves as a foundational roadmap for the development of the next gen
 
 ## Overview
 
-<img src="./imgs/figure1.pdf" style="center"> 
+<img src="./imgs/diagram.png" style="center"> 
 
 ---
 
